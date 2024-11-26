@@ -36,12 +36,7 @@ const Work = () => {
                     height: 'auto',
                     borderRadius: '12px', 
                   }}
-                   date={item.date}
-                   dateStyle={{
-                    fontSize: '2rem', // Adjust font size here
-                    fontWeight: 'bold', // Optional for better emphasis
-                    color: 'blue',
-                  }}
+                  date={<span style={{fontWeight: 'bold',fontSize:'2.2rem',padding:'10px'}}>{item.date}</span>}
                   icon={<MdWork />}
                   iconStyle={{
                     background: 'black',
