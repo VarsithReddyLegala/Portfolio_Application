@@ -1,0 +1,83 @@
+.certifications-container {
+    padding: 20px;
+    text-align: center;
+  
+    .certifications-title {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      color: white;
+      text-transform: uppercase;
+    }
+  
+    .certifications-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three items per row */
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+  
+      @media (max-width: 992px) { /* For medium screens (tablets) */
+        grid-template-columns: repeat(2, 1fr); /* Two items per row */
+      }
+  
+      @media (max-width: 576px) { /* For small screens (mobile devices) */
+        grid-template-columns: 1fr; /* One item per row */
+      }
+  
+      .certification-card {
+        background-color: #f9f9f9;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+  
+        .cert-title {
+          font-size: 2rem;
+          margin-bottom: 10px;
+          font-weight: bold;
+          text-transform: capitalize;
+          color: black;
+        }
+  
+        .cert-image {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+          margin-bottom: 15px;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+  
+        .cert-button {
+          display: inline-block;
+          margin-top: 10px;
+          padding: 10px 20px;
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: white;
+          background-color: blue;
+          border: none;
+          border-radius: 5px;
+          text-decoration: none;
+          transition: background-color 0.3s ease, transform 0.3s ease;
+  
+          &:hover {
+            background-color: darkblue;
+            transform: scale(1.05);
+            cursor: pointer;
+          }
+  
+          &:active {
+            transform: scale(0.95);
+          }
+        }
+      }
+    }
+  }
+  

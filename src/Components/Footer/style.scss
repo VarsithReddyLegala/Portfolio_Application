@@ -1,0 +1,114 @@
+.Footer {
+    display: flex;
+    justify-content: space-between; // Align items to left and right
+    align-items: center;
+    background-color: #696969; // Dark footer background
+    color: #ffffff; // White text color
+    padding: 20px 40px; // Add padding for better spacing
+    margin-top: 20px;
+    width: 100%;
+
+    &__left {
+        flex: 1; // Allow the left section to take up more space
+        h1 {
+            font-size: 32px; // Font size for "Get in Touch"
+            margin-bottom: 15px;
+        }
+
+        &__email {
+            p {
+                margin: 0;
+                padding: 10px 15px; // Add padding for better email appearance
+                color: black; // Black text color
+                border-radius: 3px; // Rounded corners
+                font-size: 25px;
+                background-color: white;
+                width: 100%; // Ensure it adjusts dynamically
+                max-width: 300px; // Limit maximum width
+                transition: background-color 0.3s ease, color 0.3s ease;
+
+                &:hover {
+                    color: #000; // Black text on hover
+                }
+            }
+        }
+    }
+
+    &__right {
+        flex: 1; // Allow the right section to take up space equally
+        display: flex;
+        justify-content: flex-end; // Align icons to the right
+        align-items: center;
+
+        &__Links {
+            display: flex;
+            gap: 20px; // Space between icons
+
+            &__item {
+                text-decoration: none; // Remove underline for links
+                color: #ffffff; // Default icon color
+                font-size: 35px; // Icon size
+                transition: transform 0.3s ease, color 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.3); // Zoom effect on hover
+                    color: #0077b5; // Example color change for LinkedIn
+                }
+            }
+        }
+    }
+
+    // Mobile View Styling
+    @media (max-width: 768px) {
+        flex-direction: column; // Stack items vertically
+        align-items: flex-start; // Align to the start
+        padding: 20px; // Adjust padding
+
+        &__left {
+            margin-bottom: 20px; // Add space between sections
+            text-align: left; // Align text to the left
+        }
+
+        &__right {
+            justify-content: center; // Center align icons
+            width: 100%; // Ensure it spans full width
+        }
+
+        &__email p {
+            width: 100%; // Full width for email
+        }
+    }
+
+    // Very Small Screens (less than 300px)
+    @media (max-width: 300px) {
+        flex-direction: column; // Stack items vertically
+        align-items: center; // Center align all content
+        padding: 15px; // Reduce padding for smaller screens
+
+        &__left {
+            h1 {
+                font-size: 18px; // Reduce font size for "Get in Touch"
+                text-align: center; // Center-align the title
+            }
+
+            &__email {
+                p {
+                    font-size: 16px; // Smaller email font size
+                    padding: 8px 10px; // Reduce padding
+                    max-width: 90%; // Ensure the width fits within the screen
+                }
+            }
+        }
+
+        &__right {
+            width: 100%; // Make the right section span full width
+            justify-content: center; // Center align icons
+            &__Links {
+                gap: 10px; // Reduce spacing between icons
+                &__item {
+                    font-size: 25px; // Smaller icon size
+                }
+            }
+        }
+    }
+}

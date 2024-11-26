@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dashed white;
+
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        line-height: 1rem;
+        text-transform: capitalize;
+        color: black;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    span {
+        svg {
+            color: white;
+        }
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        padding: 15px;
+
+        h2 {
+            font-size: 28px; /* Reduce font size */
+            text-align: center; /* Center the text */
+            margin-bottom: 10px; /* Add spacing between stacked elements */
+        }
+
+        span {
+            svg {
+                font-size: 24px; /* Adjust icon size for smaller screens */
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+
+        h2 {
+            font-size: 22px; /* Further reduce font size */
+            letter-spacing: 1px; /* Adjust spacing */
+        }
+
+        span {
+            svg {
+                font-size: 20px; /* Smaller icon size */
+            }
+        }
+    }
+}

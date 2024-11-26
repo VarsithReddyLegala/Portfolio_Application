@@ -1,0 +1,130 @@
+.home{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    &__text-wrapper{
+        display: flex;
+        justify-content: center;
+
+        h1{
+            color: white;
+            margin: 0px;
+            font-weight: 500;
+            font-size: 8rem;
+            line-height: 10rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typingEffectAnimation 2.5s steps(30,end);
+        }
+    }
+    &__text-wrapper2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px; // Adds space between the links
+    
+        &__Hire-me {
+            padding: 20px;
+            font-size: 2.8rem;
+            text-decoration: none;
+            border: 1px solid yellow;
+            color: black;
+            background-color: #B0E0E6;
+            animation: pulse 1.5s ease-in-out infinite;
+            margin: 10px;
+            
+        }
+        &__CV {
+            padding: 20px;
+            font-size: 2.8rem;
+            text-decoration: none;
+            border: 1px solid yellow;
+            color: black;
+            background-color: #B0E0E6;
+            animation: bounce 2s infinite;
+            margin: 10px;
+            
+        }
+    }
+    &__opportunity {
+        margin-top: 20px;
+        padding: 15px;
+        max-width: 600px; // Restrict width for large screens
+        margin: 0 auto; // Center align the section
+
+        &__para {
+            background-color: #B0E0E6;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+            font-size: 2rem;
+            line-height: 2.4rem;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        &__email {
+            color: blue; // Email link color
+            text-decoration: underline;
+
+            &:hover {
+                color: #0056b3;
+            }
+        }
+    }
+}
+@media only screen and (max-width:375px) {
+    .home{
+        &__text-wrapper{
+            display: flex;
+            justify-content: center;
+    
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:550px) {
+
+    .home__text-wrapper h1{
+        font-size: 2rem;
+        line-height: 4rem;
+
+    }
+}
+@media only screen and (min-width:551px) and (max-width:768px) {
+    .home__text-wrapper h1{
+        font-size: 4rem;
+        line-height:6rem;
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:990px) {
+    .home__text-wrapper h1{
+        font-size: 6rem;
+        line-height:8rem;
+    }
+}
+
+@keyframes typingEffectAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1.6); }
+    50% { transform: scale(1.1); }
+  }

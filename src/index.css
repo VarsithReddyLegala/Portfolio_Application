@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+   
+   
+    --yellow-theme-background-color:#2C3E50;
+    --yellow-theme-main-color: #ffdd40;
+    --yellow-theme-sub-text-color: #ffffff;
+    --yellow-theme-nav-background-color: #181818;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+body{
+    background: grey;
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
+/* Ensure the body and html occupy the full screen and remove margins */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure .about__content takes full width */
+  .about__content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; /* Remove any padding */
+  }
+  
+  /* For mobile view */
+  @media (max-width: 480px) {
+    .about__content {
+      flex-direction: column;
+      align-items: center; /* Ensure child elements are centered */
+    }
+  
+    .about__content > * {
+      width: 100%; /* Ensure child elements take full width */
+    }
+  }
+  

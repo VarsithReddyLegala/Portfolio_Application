@@ -1,0 +1,134 @@
+.about {
+  &__content {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+
+    &__personalWrapper {
+      padding: 5px;
+      width: 50%;
+      display: block;
+      height: 100%;
+      background-color: burlywood;
+      border-radius: 20px;
+
+      &__name {
+        margin: 5px;
+
+        h2 {
+          font-size: 30px;
+          justify-content: center;
+        }
+      }
+
+      &__contact-info {
+        justify-items: center;
+        margin: 5px;
+
+        &__items {
+          background-color: white;
+          font-size: 25px;
+          margin: 10px;
+          border-radius: 15px;
+          animation: pulse 1.5s ease-in-out infinite;
+          width: 50%; // Default width for desktop
+          padding: 10px;
+          word-wrap: break-word; // Prevent text overflow
+          overflow-wrap: break-word; // Support for older browsers
+          text-align: center; // Center-align text
+
+          &__contact-item {
+            font-size: 25px;
+            margin: 2px;
+            padding: 5px;
+
+            &__icon {
+              padding: 10px;
+            }
+          }
+        }
+      }
+
+      &__jobdesc {
+        width: 70%;
+
+        p {
+          font-size: 30px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 15px;
+        }
+      }
+    }
+
+    &__imagewrapper {
+      width: 50%;
+
+      &__profilepic {
+        img {
+          width: 80%;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+
+  // Mobile View Styling
+  @media (max-width: 760px) {
+    &__content {
+      display: flex;
+      flex-direction: column; // Stack items vertically
+      gap: 20px;
+      padding: 10px;
+
+      &__imagewrapper {
+        width: 100%; // Take full width
+        padding: 10px;
+
+        &__profilepic {
+          img {
+            width: 100%; // Make the image responsive
+            padding: 0;
+            border-radius: 15px;
+          }
+        }
+      }
+
+      &__personalWrapper {
+        width: 100%; // Take full width
+        padding: 10px;
+
+        &__jobdesc p {
+          font-size: 20px; // Adjust font size for mobile
+          padding: 10px;
+        }
+
+        &__contact-info {
+          display: flex;
+          flex-direction: column; // Stack contact items vertically
+          align-items: center; // Center align content
+          margin: 10px 0;
+
+          &__items {
+            font-size: 20px; // Adjust font size for mobile
+            margin: 5px;
+            width: 80%; // Increase width for better readability
+            padding: 10px;
+            word-wrap: break-word; // Ensure long text wraps
+            overflow-wrap: break-word; // Support for older browsers
+            text-align: center; // Center-align text
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1.6);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+}
