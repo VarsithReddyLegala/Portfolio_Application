@@ -13,7 +13,7 @@ const data=[
         to:'/About'
     },
     {
-        label:'WORK EXPERINCE',
+        label:'WORK EXPERIENCE',
         to:'/Work'
     },
     {
