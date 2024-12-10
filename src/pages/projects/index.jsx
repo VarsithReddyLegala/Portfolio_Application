@@ -77,15 +77,19 @@ const Projects = () => {
                                     <span key={index} className="modal__content__techstack__techbadge">{tech}</span>
                                 ))}
                             </div>
-                            <div className="modal__content__Links">
-                                <a 
-                                    className="modal__content__Links__code" 
-                                    href={selectedProject.viewcodeLink} 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                >
-                                    View Code
-                                </a>
+                            <div
+                            className={`modal__content__Links ${
+                                selectedProject.val !== "true" ? "centered" : ""
+                            }`}>
+                            <a 
+                                className="modal__content__Links__code" 
+                                href={selectedProject.viewcodeLink} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                View Code
+                            </a>
+                            {selectedProject.val === "true" && (
                                 <a 
                                     className="modal__content__Links__live" 
                                     href={`https://${selectedProject.viewliveLink}`} 
@@ -94,7 +98,8 @@ const Projects = () => {
                                 >
                                     View Live
                                 </a>
-                            </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             )}

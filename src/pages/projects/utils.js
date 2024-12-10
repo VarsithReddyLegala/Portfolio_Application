@@ -11,7 +11,8 @@ const data ={
              tech_stack:["Html 5","Css","Javascript","Three js","WebgL"],
              stage:"Deployed",
              viewcodeLink:"https://github.com/Varshith2007hub/Katmari_game_using_Three-js",
-             viewliveLink:"katmarigame.netlify.app/"
+             viewliveLink:"katmarigame.netlify.app/",
+             val:"true"
         },
         {
             id:3,
@@ -23,7 +24,8 @@ const data ={
             tech_stack:["FlutterFlow","Supabase","FireBase"],
             stage:"Development_in_Progress",
             viewcodeLink:"",
-            viewliveLink:""
+            viewliveLink:"",
+            val:"false"
         },
         {
             id:2,
@@ -43,7 +45,8 @@ const data ={
             tech_stack:["Java","gradle","JEST","Swing",'Github'],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Who_want_to_be_a_Miilionare_Game_using_Gradle",
-             viewliveLink:""
+             viewliveLink:"",
+             val:"false"
         },
         {
             id:2,
@@ -59,7 +62,8 @@ const data ={
             tech_stack:["Angular js","Node js","Express js","GitHub","SQL"],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Online_Book_Store_Using_angular",
-             viewliveLink:"onbookst.netlify.app/"
+             viewliveLink:"onbookst.netlify.app/",
+             val:"true"
         },
         {
             id:2,
@@ -77,7 +81,8 @@ const data ={
             tech_stack:["React js","Node js","Express js","Github"],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Birthday_Application",
-            viewliveLink:""
+            viewliveLink:"",
+            val:"false"
         }
     ]
 }
