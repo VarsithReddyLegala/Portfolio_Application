@@ -39,8 +39,7 @@ const data ={
             testing, covering both the logic and user interface components. The project was built and managed with
              Gradle, which streamlined the development and dependency management process.This project showcases
             my skills in Java programming, UI design with Swing, and implementing core software development
-            principles such as testing and build automation. It was a rewarding experience that allowed me to 
-            combine creativity with technical expertise while adhering to best practices in software engineering.`,
+            principles such as testing and build automation.`,
             tech_stack:["Java","gradle","JEST","Swing",'Github'],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Who_want_to_be_a_Miilionare_Game_using_Gradle",
@@ -57,7 +56,7 @@ const data ={
             searching, and managing orders. Key features include inventory management,payment integration, and tracking of rentals or purchases. This project highlights expertise in 
             modern web development, combining scalability, efficiency, and usability for an engaging online 
             book store experience.`,
-            tech_stack:["Angular js","Node js","MEAN Stack","GitHub"],
+            tech_stack:["Angular js","Node js","Express js","GitHub","SQL"],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Online_Book_Store_Using_angular",
              viewliveLink:"onbookst.netlify.app/"
@@ -75,7 +74,7 @@ const data ={
             Version control and collaboration were streamlined with GitHub, focusing on creating a reliable,
             user-friendly solution that fosters joy and belonging for children while showcasing 
             our team's technical expertise and commitment to impactful solutions.`,
-            tech_stack:["React js","Node js","MERN Stack"],
+            tech_stack:["React js","Node js","Express js","Github"],
             stage:"Deployed",
             viewcodeLink:"https://github.com/Varshith2007hub/Birthday_Application",
             viewliveLink:""
