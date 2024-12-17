@@ -4,7 +4,7 @@ const data ={
             title: "Lead Developer",
             Organization:"Saint Louis University-MedLaunch",
             place:"St Louis USA",
-            date:"Dec 2023- Mar 2024 ",
+            date:"Nov 2023- Apr 2024 ",
             Description:["Engineered a comprehensive mobile application, ApiriCare, for the MedLaunch Project at Saint Louis University.",
                 "Led a team of 3 developers, contributing to the app's design and functionality, which resulted in a 30% increase in user engagement.",
                 "Developed features that assist expecting mothers by providing information on preeclampsia risks, health tracking, and early detection",
@@ -18,7 +18,7 @@ const data ={
             title: "Web Developer",
             Organization: "Saint Louis University",
             place: "St Louis, MO",
-            date:"Aug 2023-Oct 2023 ",
+            date:"Jul 2023-Oct 2023 ",
             Description: [
                 "Designed and implemented the frontend and backend of the 'It's My Birthday' website, creating a robust database to manage birthday details for 150+ children in shelters, ensuring accurate and efficient data storage.",
                 "Developed the website using React and Node.js frameworks, empowering shelter managers with streamlined access to information, increasing data retrieval speed by 60% for team members.",
@@ -46,7 +46,7 @@ const data ={
             title: "Software Engineer",
             Organization: "Techwave Consulting Services",
             place: "Hyderabad, India",
-            date:"Dec 2020-Jun 2021",
+            date:"June 2020-Jun 2021",
             Description: [
                 "Designed the backend of the application, managing server-side logic, data processing, and database communication for over 10,000 transactions daily.",
                 "Utilized Oracle database and JDBC for efficient data storage and retrieval, reducing query execution time by 25%.",
