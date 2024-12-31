@@ -1,7 +1,7 @@
 const data ={
     experience:[
         {
-            title: "Lead Developer",
+            title: "Mobile Application Developer",
             Organization:"Saint Louis University-MedLaunch",
             place:"St Louis USA",
             date:"Nov 2023- Apr 2024 ",
@@ -15,7 +15,7 @@ const data ={
             tech_stack:["FlutterFlow","Supabase","firebase"]
         },
         {
-            title: "Web Developer",
+            title: "Full Stack Developer",
             Organization: "Saint Louis University",
             place: "St Louis, MO",
             date:"Jul 2023-Oct 2023 ",
@@ -27,7 +27,7 @@ const data ={
             tech_stack:["Html 5","Css","Javascript","React js","Node js","MongoDb","Git"]
         },
         {
-            title: "Software Engineer",
+            title: "Full Stack Engineer",
             Organization: "Epam Systems",
             place: "Hyderabad, India",
             date:"Jun 2021-Dec 2022 ",
@@ -54,6 +54,36 @@ const data ={
                 "Played a key role in creating a robust and responsive application architecture, contributing to a 99.9% uptime and supporting 1,000+ active users."
             ],
             tech_stack:["Java","Spring","SpringBoot","JDBC","ODBC","Hibernate"]
+        },
+        {
+            title: "Software Engineer",
+            Organization: "KMIT",
+            place: "Hyderabad, India",
+            date:"May 2019-May 2021",
+            Description: [
+                "Developed a Book-keeping System project, a modern library management solution for efficient tracking and management of book data." ,
+                "Developed an interactive and user-friendly front-end interface using React.js, enabling librarians to easily access, search, and update book inventories.",
+               "Developed the backend using Node.js, Express.js, and SQL, ensuring seamless data storage, retrieval, and API integration for thousands of records.",
+               "Implemented key features such as book search, borrow, and return functionalities, improving operational efficiency by 40%.",
+               "Enhanced system security by integrating role-based access controls and implementing regular data backups to prevent data loss.",
+               "Delivered comprehensive documentation and conducted training sessions for end-users, ensuring smooth adoption and utilization of the system.",
+               "Collaborated with a team of peers to test and debug the application, achieving a 95% accuracy rate in maintaining book records."
+            ],
+            tech_stack:["JSP","SQL","React js","Node js","Express js"]
+        },
+        {
+            title: "Salesforce Developer",
+            Organization: "KMIT",
+            place: "Hyderabad, India",
+            date:"Jul 2018-Jan 2019",
+            Description: [
+                "Built an application using Salesforce technology to facilitate seamless communication between hospitals and patients.",
+                "Implemented custom objects, workflows, and triggers in Salesforce to automate data tracking and improve efficiency.",
+                "Tracked the different doctors a patient has visited, creating comprehensive profiles and centralizing medical history information for 1,000+ patient records. Reduced redundant form-filling by 50%, saving patients significant time and improving overall efficiency.",
+                "Revolutionized the accessibility of patient records for doctors through centralized data management, which resulted in a 60% increase in both diagnostic speed and treatment   precision.",
+                "Integrated Salesforce with third-party APIs to synchronize patient data securely across multiple systems, ensuring data consistency and reliability"
+            ],
+            tech_stack:["Salesforce.com"]
         }
     ]
 }
