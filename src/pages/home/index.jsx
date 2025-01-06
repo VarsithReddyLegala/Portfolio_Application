@@ -13,7 +13,7 @@ const Home=()=>{
         <div className="home__text-wrapper2">
             <a
                 className="home__text-wrapper2__CV"
-                href="https://drive.google.com/file/d/1HbRHEeRROv-Bz2EkNLXWWCwz39duHpTq/view?usp=sharing"
+                href="https://drive.google.com/file/d/16MECfiAHv8UrVmJkocGHFYlbB0kgZORq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
