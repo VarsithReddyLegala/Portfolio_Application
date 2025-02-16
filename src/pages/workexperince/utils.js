@@ -1,91 +1,89 @@
-const data ={
-    experience:[
+const data = {
+    experience: [
         {
-            title: "Mobile Application Developer",
-            Organization:"Saint Louis University-MedLaunch",
-            place:"St Louis USA",
-            date:"Nov 2023- Apr 2024 ",
-            Description:["Engineered a comprehensive mobile application, ApiriCare, for the MedLaunch Project at Saint Louis University.",
-                "Led a team of 3 developers, contributing to the app's design and functionality, which resulted in a 30% increase in user engagement.",
-                "Developed features that assist expecting mothers by providing information on preeclampsia risks, health tracking, and early detection",
-                "Conducted usability tests with over 50 users, incorporating real-time feedback to enhance the app's features and overall user experience.",
-                "Integrated health tracking capabilities resulted in a 25% increase in comprehensive monitoring and support throughout pregnancy. ",
-                "Provided timely insights and resources through the app, aiding in the early detection and effective management of health conditions, leading to a 30% improvement in early diagnosis."
+            title: "Java Full Stack Developer",
+            Organization: "L.L. Bean",
+            place: "Freeport, ME",
+            date: "Mar 2024 - Present",
+            Description: [
+                "Designed and developed scalable microservices using Java, Spring Boot, and RESTful APIs, improving application performance and maintainability.",
+                "Built dynamic, user-friendly web applications using Angular, React, TypeScript, and SCSS, enhancing customer experience and engagement.",
+                "Optimized database queries and implemented ORM solutions (Hibernate, JPA) for improved data retrieval efficiency in Oracle and PostgreSQL.",
+                "Integrated OAuth 2.0, JWT authentication, and Spring Security, strengthening application security and user authentication.",
+                "Developed and deployed cloud-based applications on AWS (S3, Lambda, EC2, RDS), ensuring high availability and fault tolerance.",
+                "Implemented CI/CD pipelines using Jenkins, GitHub Actions, and Docker, reducing deployment time by 40%.",
+                "Utilized Kafka and RabbitMQ for real-time event-driven architecture, enhancing system responsiveness.",
+                "Applied test-driven development (TDD) with JUnit, TestNG, achieving 95% code coverage and improving application reliability."
             ],
-            tech_stack:["FlutterFlow","Supabase","firebase"]
+            tech_stack: ["Java", "Spring Boot", "Angular", "React", "TypeScript", "AWS", "Kafka", "RabbitMQ", "Docker", "Jenkins"]
         },
         {
             title: "Full Stack Developer",
-            Organization: "Saint Louis University",
+            Organization: "It’s My Birthday, Inc",
             place: "St Louis, MO",
-            date:"Jul 2023-Oct 2023 ",
+            date: "Jan 2023 - Jan 2024",
             Description: [
-                "Designed and implemented the frontend and backend of the 'It's My Birthday' website, creating a robust database to manage birthday details for 150+ children in shelters, ensuring accurate and efficient data storage.",
-                "Developed the website using React and Node.js frameworks, empowering shelter managers with streamlined access to information, increasing data retrieval speed by 60% for team members.",
-                "Coordinated the creation of the 'It's My Birthday' website, managing the birthdays of over 150 children in shelters, reducing manual tracking time by 20 hours per month for volunteers."
+                "Designed and implemented scalable backend services using Java, Spring Boot, and Spring MVC, ensuring high performance and maintainability.",
+                "Developed RESTful APIs for seamless data communication between the frontend and backend, reducing API response time by 40%.",
+                "Integrated authentication and authorization mechanisms using Spring Security, ensuring role-based access control and data privacy for shelter managers and volunteers.",
+                "Optimized database queries and indexing in Oracle, MySQL, and PostgreSQL, reducing data retrieval time by 60%.",
+                "Managed multi-threaded request handling for concurrent API calls, improving system efficiency.",
+                "Implemented caching mechanisms using Redis to store frequently accessed data, reducing the database load and enhancing system scalability.",
+                "Developed unit and integration tests using JUnit and TestNG, achieving 85% test coverage.",
+                "Containerized the application using Docker, facilitating seamless deployment across multiple environments."
             ],
-            tech_stack:["Html 5","Css","Javascript","React js","Node js","MongoDb","Git"]
+            tech_stack: ["Java", "Spring Boot", "Oracle", "MySQL", "PostgreSQL", "Redis", "Docker", "Jenkins"]
         },
         {
-            title: "Full Stack Engineer",
+            title: "Full Stack Developer",
             Organization: "Epam Systems",
             place: "Hyderabad, India",
-            date:"Jun 2021-Dec 2022 ",
+            date: "Dec 2020 - Dec 2022",
             Description: [
-                "Played a key role in Epam Systems' development team for the World Check One application, designing dynamic and responsive user interfaces using React.js and Angular.js.",
-                "Fixed user interface bugs and developed the user interface using Angular and TypeScript, ensuring a seamless and user-friendly experience.",
-                "Streamlined backend processes by enhancing the application using TypeScript, JavaScript, and Node.js, leading to a 30% reduction in debugging time while maintaining high standards of customer service.",
-                "Secured data transmission by converting HTTP to HTTPS requests with Node.js, configuring over 15 critical endpoints, which improved user trust metrics and customer retention, now supporting over 1,000 active users weekly.",
-                "Employed Datadog for efficient bug identification and system monitoring, and integrated CI/CD pipelines with Jenkins for streamlined development and rapid bug resolution.",
-                "Executed Docker containerization and cloud configurations across AWS, Microsoft Azure, and Google Cloud Platform, facilitating seamless load balancer adjustments and optimizing server response times, supporting 10,000+ daily transactions without service interruptions.",
-                "Developed programming expertise in front-end technologies (AngularJS, React, TypeScript, Java) and REST APIs, significantly contributing to the application's robust performance."
+                "Transformed UI responsiveness using Vue.js, Angular, and JavaScript, improving load times and increasing daily active users.",
+                "Fixed critical UI bugs and optimized frontend performance with Angular and TypeScript, enhancing user experience.",
+                "Refactored and optimized Java-based microservices using Spring Boot and Spring MVC, reducing API response times by 40%.",
+                "Developed RESTful APIs using Java, Spring Boot, and Node.js, ensuring seamless data flow between client and server.",
+                "Enhanced database performance by optimizing queries, indexing, and implementing caching strategies in Oracle and PostgreSQL.",
+                "Implemented authentication and authorization using Spring Security, OAuth 2.0, and JWT.",
+                "Secured data transmission by converting HTTP to HTTPS requests, configuring over 15 critical endpoints.",
+                "Developed role-based access control (RBAC) mechanisms, ensuring compliance with security and data privacy regulations.",
+                "Integrated robust logging and monitoring solutions using ELK Stack and Datadog."
             ],
-            tech_stack:["Html 5","Css","Javascript","TypeScript","React js","Angular 16","MERN Stack","MEAN Stack","Vue js","SQL","MongoDb","AWS"]
+            tech_stack: ["Java", "Spring Boot", "Angular", "Vue.js", "TypeScript", "PostgreSQL", "OAuth 2.0", "JWT", "ELK Stack"]
         },
         {
-            title: "Software Engineer",
+            title: "Java Full Stack Developer",
             Organization: "Techwave Consulting Services",
             place: "Hyderabad, India",
-            date:"June 2020-Jun 2021",
+            date: "Nov 2018 - Aug 2020",
             Description: [
-                "Designed the backend of the application, managing server-side logic, data processing, and database communication for over 10,000 transactions daily.",
-                "Utilized Oracle database and JDBC for efficient data storage and retrieval, reducing query execution time by 25%.",
-                "Crafted the User Interface with HTML, CSS, and Angular, integrating JavaScript, resulting in a 40% improvement in user interaction and responsiveness.",
-                "Played a key role in creating a robust and responsive application architecture, contributing to a 99.9% uptime and supporting 1,000+ active users."
+                "Designed and developed backend architecture using Core Java, J2EE, and MVC design patterns, ensuring efficient server-side logic and database communication.",
+                "Engineered robust backend solutions using Spring Boot, reducing development timelines by 20%.",
+                "Optimized Java Virtual Machine (JVM) performance using profiling tools.",
+                "Developed RESTful APIs using Jersey and Spring Boot, ensuring scalable, maintainable, and secure communication between microservices.",
+                "Optimized database performance with SQL, PL/SQL, and JDBC, reducing query execution time by 25%.",
+                "Implemented role-based access control (RBAC) and authentication mechanisms using Spring Security and OAuth 2.0.",
+                "Integrated caching mechanisms like Redis, minimizing redundant database queries."
             ],
-            tech_stack:["Java","Spring","SpringBoot","JDBC","ODBC","Hibernate"]
+            tech_stack: ["Java", "Spring Boot", "J2EE", "SQL", "PL/SQL", "JDBC", "Redis", "Spring Security", "OAuth 2.0"]
         },
         {
-            title: "Software Engineer",
-            Organization: "KMIT",
+            title: "Full Stack Developer",
+            Organization: "Ovation Technologies",
             place: "Hyderabad, India",
-            date:"May 2019-May 2021",
+            date: "Aug 2017 - Aug 2018",
             Description: [
-                "Developed a Book-keeping System project, a modern library management solution for efficient tracking and management of book data." ,
-                "Developed an interactive and user-friendly front-end interface using React.js, enabling librarians to easily access, search, and update book inventories.",
-               "Developed the backend using Node.js, Express.js, and SQL, ensuring seamless data storage, retrieval, and API integration for thousands of records.",
-               "Implemented key features such as book search, borrow, and return functionalities, improving operational efficiency by 40%.",
-               "Enhanced system security by integrating role-based access controls and implementing regular data backups to prevent data loss.",
-               "Delivered comprehensive documentation and conducted training sessions for end-users, ensuring smooth adoption and utilization of the system.",
-               "Collaborated with a team of peers to test and debug the application, achieving a 95% accuracy rate in maintaining book records."
+                "Designed and developed a robust book-keeping system using Java, Spring Boot, and microservices.",
+                "Developed RESTful APIs with Spring Boot and Jersey, ensuring seamless communication.",
+                "Optimized database queries using indexing, caching mechanisms (Redis, Ehcache), and query optimization.",
+                "Integrated WebSocket-based notification services, alerting users in real-time.",
+                "Conducted unit and integration testing with JUnit and TestNG, reducing post-deployment issues by 25%.",
+                "Deployed containerized microservices with Docker and Kubernetes, ensuring seamless scalability."
             ],
-            tech_stack:["JSP","SQL","React js","Node js","Express js"]
-        },
-        {
-            title: "Salesforce Developer",
-            Organization: "KMIT",
-            place: "Hyderabad, India",
-            date:"Jul 2018-Jan 2019",
-            Description: [
-                "Built an application using Salesforce technology to facilitate seamless communication between hospitals and patients.",
-                "Implemented custom objects, workflows, and triggers in Salesforce to automate data tracking and improve efficiency.",
-                "Tracked the different doctors a patient has visited, creating comprehensive profiles and centralizing medical history information for 1,000+ patient records. Reduced redundant form-filling by 50%, saving patients significant time and improving overall efficiency.",
-                "Revolutionized the accessibility of patient records for doctors through centralized data management, which resulted in a 60% increase in both diagnostic speed and treatment   precision.",
-                "Integrated Salesforce with third-party APIs to synchronize patient data securely across multiple systems, ensuring data consistency and reliability"
-            ],
-            tech_stack:["Salesforce.com"]
+            tech_stack: ["Java", "Spring Boot", "Microservices", "Jersey", "Redis", "Ehcache", "WebSockets", "Docker", "Kubernetes"]
         }
     ]
-}
+};
 
 export default data;

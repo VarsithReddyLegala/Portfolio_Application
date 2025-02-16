@@ -11,14 +11,14 @@ const Home=()=>{
             </h1>
         </div>
         <div className="home__text-wrapper2">
-            <a
+            {/* <a
                 className="home__text-wrapper2__CV"
                 href="https://drive.google.com/file/d/16MECfiAHv8UrVmJkocGHFYlbB0kgZORq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
                 Download CV
-            </a>
+            </a> */}
         </div>
         <div className="home__opportunity">
                 <p className="home__opportunity__para">
